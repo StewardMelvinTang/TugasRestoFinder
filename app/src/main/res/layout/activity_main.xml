@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/verylightyellow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:background="#ff5500">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="130dp"
+            android:rotation="180"
+            android:background="@drawable/ic_wave"
+            ></ImageView>
+        </LinearLayout>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/tb_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_rounded"
+        android:backgroundTint="@color/lightyellow"
+        android:hint="Search Here..."
+        android:fontFamily="@font/poppins_bold"
+        android:paddingStart="40dp"
+        android:textColor="#9F9F9F">
+
+    </EditText>
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_baseline_search_24"
+        android:tint="@color/orange"
+        android:elevation="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="3dp"></ImageView>
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:id="@+id/linear_text">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_discoveryour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Discover your "
+                android:textColor="@color/white"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favorite "
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:fontFamily="@font/poppins_bold">
+            </TextView>
+
+
+        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant!"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-5dp"
+                android:fontFamily="@font/poppins_regular">
+            </TextView>
+
+
+        </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imgbtn_profile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/profile_avatar"></ImageButton>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

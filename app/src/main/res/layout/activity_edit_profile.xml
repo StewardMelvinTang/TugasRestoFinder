@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile"
+    android:orientation="vertical"
+    android:background="@color/verylightyellow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"
+            android:backgroundTint="@color/black"
+            android:layout_marginStart="25dp"
+            android:id="@+id/imgbtn_back"></ImageButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="Edit Profile"
+            android:textColor="@color/black"
+            android:textSize="22dp"></TextView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:src="@drawable/profile_avatar"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginStart="55dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"></TextView>
+    <EditText
+        android:id="@+id/tb_username"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/ic_rounded"
+        android:backgroundTint="@color/lightyellow"
+        android:paddingStart="5dp"
+        android:text="username"
+        android:elevation="2dp"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginStart="55dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"></TextView>
+    <EditText
+        android:id="@+id/tb_username"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/ic_rounded"
+        android:backgroundTint="@color/lightyellow"
+        android:paddingStart="5dp"
+        android:text="admin@gmail.com"
+        android:enabled="false"
+        android:elevation="2dp"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginStart="55dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"></TextView>
+    <EditText
+        android:id="@+id/tb_username"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/ic_rounded"
+        android:backgroundTint="@color/lightyellow"
+        android:paddingStart="5dp"
+        android:text="1234"
+        android:enabled="false"
+        android:elevation="2dp"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"></EditText>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_simpan"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/orange"
+        android:text="Simpan"
+        android:background="@drawable/ic_rounded15"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="79dp">
+    </com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>

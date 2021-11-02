@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/verylightyellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="205dp"
+        android:src="@drawable/yummy_truck"
+        android:layout_gravity="center">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan login terlebih dahulu!"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/orange"
+        android:layout_marginStart="38dp"
+        android:textSize="16dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_email_24"
+            android:tint="@color/orange"></ImageView>
+
+        <EditText
+            android:id="@+id/tb_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_rounded"
+            android:backgroundTint="@color/lightyellow"
+            android:layout_marginStart="19dp"
+            android:hint="Email"
+            android:elevation="2dp"
+            android:singleLine="true"
+            android:paddingStart="5dp"
+            android:fontFamily="@font/poppins_bold"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_vpn_key_24"
+            android:tint="@color/orange"></ImageView>
+
+        <EditText
+            android:id="@+id/tb_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_rounded"
+            android:backgroundTint="@color/lightyellow"
+            android:layout_marginStart="19dp"
+            android:hint="Password"
+            android:elevation="2dp"
+            android:singleLine="true"
+            android:password="true"
+            android:paddingStart="5dp"
+            android:fontFamily="@font/poppins_bold"></EditText>
+    </LinearLayout>
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/btn_masuk"
+    android:layout_width="168dp"
+    android:layout_height="60dp"
+    android:backgroundTint="@color/orange"
+    android:text="Masuk"
+    android:background="@drawable/ic_rounded15"
+    android:fontFamily="@font/poppins_bold"
+    android:textSize="20dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="79dp">
+</com.google.android.material.button.MaterialButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk Dengan"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/orange"
+        android:layout_gravity="center"
+        android:layout_marginTop="47dp"
+        android:textSize="16dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+     <ImageButton
+         android:id="@+id/btn_google"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:src="@drawable/google_logo"
+         android:scaleType="fitCenter"
+         android:padding="12dp"
+         android:layout_margin="10dp"
+         android:background="@drawable/ic_rounded"
+         android:elevation="2dp"
+         android:backgroundTint="@color/lightyellow"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/btn_facebook"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/fb_logo"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:elevation="2dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/ic_rounded"
+            android:backgroundTint="@color/lightyellow"></ImageButton>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
