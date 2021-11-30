@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300167017241",
+    "project_id": "restofinder-80d03",
+    "storage_bucket": "restofinder-80d03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300167017241:android:ea8fd32669bdefc95d0b88",
+        "android_client_info": {
+          "package_name": "com.example.tugasrestofinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300167017241-rkv4l50m8mgk2dqok88mfgkj8ok5mjia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoPaCd2VuH3qIr3J9jjIJtzz-Y_FwDVlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300167017241-rkv4l50m8mgk2dqok88mfgkj8ok5mjia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

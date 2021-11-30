@@ -32,21 +32,21 @@
         <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="100px"
-        android:layout_margin="10dp"
+        android:layout_margin="25px"
         android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/tb_search"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_rounded"
-        android:backgroundTint="@color/lightyellow"
-        android:hint="Search Here..."
-        android:fontFamily="@font/poppins_bold"
-        android:paddingStart="40dp"
-        android:textColor="#9F9F9F">
+            <EditText
+                android:id="@+id/tb_search"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@drawable/ic_rounded"
+                android:backgroundTint="@color/lightyellow"
+                android:fontFamily="@font/poppins_bold"
+                android:hint="Search Here..."
+                android:paddingStart="40dp"
+                android:textColor="@color/black">
 
-    </EditText>
+            </EditText>
     <ImageView
         android:layout_width="32dp"
         android:layout_height="32dp"
@@ -60,51 +60,52 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="60dp"
-            android:id="@+id/linear_text">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/txt_discoveryour"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/linear_text"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:fontFamily="@font/poppins_regular"
-                android:text="Discover your "
-                android:textColor="@color/white"
-                android:textSize="25dp"></TextView>
+                android:layout_marginTop="60dp"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Favorite "
-                android:textColor="@color/white"
-                android:textSize="25dp"
-                android:fontFamily="@font/poppins_bold">
-            </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
+                    <TextView
+                        android:id="@+id/txt_discoveryour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Discover your "
+                        android:textColor="@color/white"
+                        android:textSize="25dp"></TextView>
 
-        </LinearLayout>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Restaurant!"
-                android:textColor="@color/white"
-                android:textSize="25dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="-5dp"
-                android:fontFamily="@font/poppins_regular">
-            </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Favorite "
+                        android:textColor="@color/white"
+                        android:textSize="25dp"></TextView>
 
 
-        </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Restaurant!"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"></TextView>
+
+
+            </LinearLayout>
 
             <ImageButton
                 android:id="@+id/imgbtn_profile"
@@ -113,7 +114,8 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="60dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/profile_avatar"></ImageButton>
+                android:background="@drawable/ic_baseline_favorite_24"></ImageButton>
+
 
         </RelativeLayout>
     </RelativeLayout>

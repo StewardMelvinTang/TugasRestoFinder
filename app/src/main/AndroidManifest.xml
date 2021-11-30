@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasRestoFinder">
         <activity
+            android:name=".register_activity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".FavoriteList"
             android:exported="false" />
         <activity
